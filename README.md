@@ -34,3 +34,11 @@ Irei realizar os mesmos cuidados feitos anteriormente, e como o bônus solicitad
 3 - Operações Matemáticas Simples
 
 Descrição: Vamos solicitar como entrada de dois números e depois vamos realizar uma operação simples entre eles.
+
+Solução: Diferente dos desafios anteriores, agora o usuário irá inserir três valores para que uma operação matemática seja realizada entre dois números, utilizando o terceiro valor como operador.
+
+Vou deixar explicito o valor da variável "primeiro_valor" e "segundo_valor" como números decimais, utilizando o comando "float()", para que o usuário possa inserir tanto números inteiros quanto decimais, e a variável "operacao" como string, visto que o operador será inserido como um caractere.
+
+Também poderia utilizar o comando if/elif/else para cada operação, mas como o desafio pede uma operação simples, irei utilizar o comando "match/case" para deixar o código mais limpo e organizado.
+
+E assim como nos desafios anteriores, irei utilizar o comando "print()" para exibir o resultado final para o usuário. Porém desta vez precisei utilizar o comando "str()" para converter o resultado em string e conseguir concatenar com o restante da mensagem.
