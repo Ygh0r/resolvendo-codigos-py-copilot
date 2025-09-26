@@ -11,6 +11,8 @@ print(MENSAGEM_APRESENTAÇÃO)
 primeiro_valor = str(input(PRIMEIRA_MENSAGEM))
 segundo_valor = str(input(SEGUNDA_MENSAGEM))
 
+# Armazenamento da palavra concatenada com espaço no meio
 palavra_formada = primeiro_valor + " " + segundo_valor
 
+# Exibição do resultado.
 print(palavra_formada)
